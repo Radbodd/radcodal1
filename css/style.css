@@ -1,0 +1,556 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../font/icomoon.eot?2m106o");
+  src: url("../font/icomoon.eot?2m106o#iefix") format("embedded-opentype"), url("../font/icomoon.ttf?2m106o") format("truetype"), url("../font/icomoon.woff?2m106o") format("woff"), url("../font/icomoon.svg?2m106o#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ruler:before {
+  content: "\e902";
+}
+
+.icon-pencil:before {
+  content: "\e902";
+}
+
+.icon-design:before {
+  content: "\e902";
+}
+
+.icon-laptop:before {
+  content: "\e907";
+}
+
+.icon-coffee:before {
+  content: "\e903";
+}
+
+.icon-cog:before {
+  content: "\e904";
+}
+
+.icon-gear:before {
+  content: "\e904";
+}
+
+.icon-bolt:before {
+  content: "\e905";
+}
+
+.icon-flash:before {
+  content: "\e905";
+}
+
+.icon-flag:before {
+  content: "\e906";
+}
+
+.icon-chevron-down:before {
+  content: "\e901";
+}
+
+.icon-instagram:before {
+  content: "\e900";
+}
+
+.icon-camera:before {
+  content: "\e90f";
+}
+
+.icon-phone:before {
+  content: "\e942";
+}
+
+.icon-eye:before {
+  content: "\e9ce";
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+.icon-instagram1:before {
+  content: "\ea92";
+}
+
+.icon-telegram:before {
+  content: "\ea95";
+}
+
+.silver {
+  color: #c5c5c5;
+}
+
+.primary {
+  color: #579BB1;
+}
+
+.main-bg {
+  background-color: #E1D7C6;
+}
+
+.secondary-bg {
+  background-color: #579BB1;
+}
+
+.primary-color {
+  color: #579BB1;
+}
+
+.line {
+  width: 70px;
+  height: 2px;
+  background-color: #579BB1;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-radcodal {
+  padding: 0.3rem 2.5rem;
+  color: #579BB1;
+  margin-top: 4rem;
+  border-radius: 5px;
+  border: 1px solid #E5E4E2;
+  background-color: white;
+  transition: 0.3s;
+}
+.btn-radcodal:hover {
+  background-color: #579BB1;
+  color: white;
+}
+
+nav {
+  background-color: hsla(43deg, 50%, 95%, 0.78888);
+}
+
+#header {
+  width: 100%;
+  padding-top: 5.5rem;
+  padding-bottom: 2rem;
+  background-color: #F8F4EA;
+}
+
+#harizon {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#harizon .services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+}
+#harizon .services .services-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+#harizon .services .services-item i {
+  font-size: 30px;
+  margin-bottom: 1.5rem;
+  display: block;
+  color: #579BB1;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1647058824);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  transition: 0.3s;
+}
+#harizon .services .services-item i:hover {
+  background-color: #579BB1;
+  color: white;
+}
+
+#portfolio {
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  background-color: #F8F4EA;
+}
+#portfolio .portfolio-buttons button {
+  color: #c5c5c5;
+  background-color: white;
+  border-color: var(--bs-border-color-translucent);
+}
+#portfolio .portfolio-buttons button:hover {
+  background-color: #579BB1;
+  color: white;
+}
+#portfolio .card .card-title {
+  font-size: 1.3rem;
+}
+#portfolio .card .card-text {
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+#portfolio .card {
+  transition: 0.3s;
+}
+#portfolio .card:hover {
+  background-color: #579BB1;
+}
+#portfolio .card:hover .card-text, #portfolio .card:hover .card-title {
+  color: white;
+}
+
+#planning {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#planning h2 {
+  font-size: 3rem;
+}
+#planning .btn-radcodal {
+  margin-top: 0;
+}
+#planning .planning-items {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#planning .planning-items-solo {
+  width: 30%;
+  position: relative;
+}
+#planning .planning-items-solo h2 {
+  font-size: 1.8rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+#planning .planning-items-solo p {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+#planning .planning-items-solo img {
+  -webkit-clip-path: polygon(47% 1%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 50% 100%, 0 80%, 0 20%);
+          clip-path: polygon(47% 1%, 50% 0, 100% 20%, 100% 80%, 50% 100%, 50% 100%, 0 80%, 0 20%);
+  width: 50%;
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#planning .planning-items-solo:nth-child(odd) {
+  padding-top: 12rem;
+}
+
+#process {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #579BB1;
+  color: white;
+}
+#process p {
+  color: #c5c5c5;
+}
+#process .line {
+  background-color: white;
+}
+#process .process-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+#process .process-inner-img {
+  width: 370px;
+  margin-right: 3rem;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+}
+#process .process-inner-img img {
+  width: 80%;
+}
+#process .process-inner-content {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 50%;
+}
+#process .process-inner-content-inner {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  margin-top: 4rem;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.2s;
+}
+#process .process-inner-content-inner:last-child {
+  opacity: 1;
+}
+#process .process-inner-content-inner:hover {
+  opacity: 1;
+}
+#process .process-inner-content-inner-icon i {
+  font-size: 30px;
+  background-color: #3CB4D2;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+#process .process-inner-content-inner-right {
+  margin-left: 1rem;
+}
+#process .process-inner-content-inner-right .line {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#creativity {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+  background: url("../images/creativity.jpg") no-repeat center top fixed;
+  background-size: cover;
+}
+#creativity p {
+  opacity: 0.4;
+}
+
+#our-team {
+  width: 100%;
+  background-color: #F8F4EA;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#our-team .card .card-title {
+  font-size: 1.3rem;
+}
+#our-team .card .card-text {
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+#our-team .card-footer {
+  padding: 1rem;
+}
+#our-team .social-media {
+  display: flex;
+  justify-content: space-evenly;
+}
+#our-team .social-media a {
+  text-decoration: none;
+}
+#our-team .social-media a:hover i {
+  color: #579BB1;
+}
+#our-team .social-media a i {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+#our-skills {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#our-skills .progress-skills {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+}
+#our-skills .progress-skills .progress-skills-item .circular-progress {
+  width: 150px;
+  height: 150px;
+  background: conic-gradient(#929292 180deg, #dbdbdb 0deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+#our-skills .progress-skills .progress-skills-item .circular-progress::before {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background-color: white;
+  border-radius: 50%;
+}
+#our-skills .progress-skills .progress-skills-item .circular-progress .circular-progress-value {
+  position: relative;
+}
+#our-skills .progress-skills .progress-skills-item .circular-progress .circular-progress-value i {
+  font-size: 40px;
+  color: #579BB1;
+}
+#our-skills .progress-skills .twenty {
+  background: conic-gradient(#929292 69deg, #dbdbdb 0deg) !important;
+}
+#our-skills .progress-skills .seventy {
+  background: conic-gradient(#929292 263deg, #dbdbdb 0deg) !important;
+}
+#our-skills .progress-skills .ninty {
+  background: conic-gradient(#929292 317deg, #dbdbdb 0deg) !important;
+}
+
+#contact-us {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #F8F4EA;
+}
+#contact-us button {
+  background-color: #579BB1;
+  color: white;
+  margin-top: 2.5rem;
+}
+#contact-us button:hover {
+  background-color: #89acb8;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+form .left-form, form .right-form {
+  width: 49%;
+  height: 100%;
+}
+form .right-form textarea {
+  height: 9rem;
+}
+
+.footer {
+  width: 100%;
+  background-color: #E1D7C6;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer .container img {
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+.footer .container p {
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+.footer .container .footer-social-media {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+}
+.footer .container .footer-social-media a {
+  text-decoration: none;
+  margin-right: 1rem;
+  background-color: var(--bs-body-color);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .container .footer-social-media a::before {
+  content: "";
+  position: absolute;
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: #E1D7C6;
+  border-radius: 50%;
+}
+.footer .container .footer-social-media a i {
+  font-size: 1rem;
+  color: var(--bs-body-color);
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  #harizon .services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+  }
+  #process .process-inner {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #process .process-inner-content {
+    align-self: center;
+    width: 100%;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+  #our-skills .progress-skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+  }
+  .progress-skills-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 600px) {
+  form {
+    flex-wrap: wrap;
+  }
+  form .left-form, form .right-form {
+    width: 100%;
+  }
+  form .right-form textarea {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 430px) {
+  #harizon .services {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+  }
+  #our-skills .progress-skills {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 12px;
+  }
+  .progress-skills-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
